@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="funciones.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <p>Este es el primer párrafo.</p>
+        <p>Este es el segundo párrafo.</p>
+        <p>Este es el tercer párrafo.</p>
+        <button onclick="cambiarColor()">Cambiar color</button>
+    </section>
+    <section>
+        <form>
+            <input type="text" id="texto">
+            <button type="button" onclick="mostrarAlerta()">MostrarAlerta</button>
+          </form>
+    </section>
+
+    <section>
+        <h2>Lista con elementos</h2>
+        <ul>
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+          </ul>
+    </section>
+
+    <section>
+        <h2>Campo de texto y botones</h2>
+        <input type="text" id="campoTexto">
+        <button onclick="deshabilitar()">Deshabilitar Campo</button>
+        <button onclick="habilitar()">Habilitar Campo</button>
+    </section>
+
+    <section>
+        <h2>Formulario con Local Storage</h2>
+        <form id="formEmail">
+            <input type="email" id="correo" placeholder="Ingresa tu correo">
+            <button type="submit">Guardar Correo</button>
+          </form>
+          <div id="correoGuardado"></div>
+          <button onclick="eliminarCorreo()">Eliminar correo guardado</button>
+          
+    </section>
+</body>
+</html>
